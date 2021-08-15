@@ -1923,20 +1923,20 @@ a {
 .cid-sG8ImxCzcy .carousel-control-prev span {
   padding-right: 5px;
 }
-.cid-saIEm4urge {
+.cid-sG8TCy5uw9 {
   padding-top: 3rem;
   padding-bottom: 4rem;
   background: #0073b1;
 }
-.cid-saIEm4urge .carousel-item {
+.cid-sG8TCy5uw9 .carousel-item {
   justify-content: center;
 }
-.cid-saIEm4urge .carousel-item.active,
-.cid-saIEm4urge .carousel-item-next,
-.cid-saIEm4urge .carousel-item-prev {
+.cid-sG8TCy5uw9 .carousel-item.active,
+.cid-sG8TCy5uw9 .carousel-item-next,
+.cid-sG8TCy5uw9 .carousel-item-prev {
   display: flex;
 }
-.cid-saIEm4urge .carousel-controls a {
+.cid-sG8TCy5uw9 .carousel-controls a {
   transition: opacity .5s;
   font-size: 22px;
   position: absolute;
@@ -1949,13 +1949,13 @@ a {
   color: #585858;
   background: #c8c6c6;
 }
-.cid-saIEm4urge .carousel-control-next span {
+.cid-sG8TCy5uw9 .carousel-control-next span {
   padding-left: 5px;
 }
-.cid-saIEm4urge .carousel-control-prev span {
+.cid-sG8TCy5uw9 .carousel-control-prev span {
   padding-right: 5px;
 }
-.cid-saIEm4urge .user_image {
+.cid-sG8TCy5uw9 .user_image {
   width: 100px;
   height: 100px;
   margin-bottom: 1.6rem;
@@ -1963,42 +1963,42 @@ a {
   border-radius: 50%;
   margin: 0 auto 2rem auto;
 }
-.cid-saIEm4urge .user_image img {
+.cid-sG8TCy5uw9 .user_image img {
   width: 100%;
   min-width: 100%;
   min-height: 100%;
 }
 @media (max-width: 230px) {
-  .cid-saIEm4urge .user_image {
+  .cid-sG8TCy5uw9 .user_image {
     width: 100%;
     height: auto;
   }
 }
-.cid-saIEm4urge .user_desk {
+.cid-sG8TCy5uw9 .user_desk {
   color: #eeecec;
 }
-.cid-saIEm4urge H3 {
+.cid-sG8TCy5uw9 H3 {
   color: #ffffff;
 }
-.cid-saIEm4urge .user_text {
+.cid-sG8TCy5uw9 .user_text {
   color: #ffffff;
 }
-.cid-saIEm4urge .user_name {
+.cid-sG8TCy5uw9 .user_name {
   color: #e4e4e4;
 }
-.cid-saIEm4urge .display-extra {
+.cid-sG8TCy5uw9 .display-extra {
   font-size: 1.5rem;
 }
-.cid-saIEm4urge .quote {
+.cid-sG8TCy5uw9 .quote {
   font-weight: bold;
   font-size: 50px;
 }
-.cid-saIEm4urge .mbri-quote-left:before {
+.cid-sG8TCy5uw9 .mbri-quote-left:before {
   font-size: 30px;
   margin-right: 20px;
   opacity: 0.5;
 }
-.cid-saIEm4urge .mbri-quote-right:before {
+.cid-sG8TCy5uw9 .mbri-quote-right:before {
   font-size: 30px;
   margin-left: 20px;
   opacity: 0.5;
