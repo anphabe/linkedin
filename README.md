@@ -1,2 +1,2 @@
-# Anphabe - Đối tác của Linked tại Việt Nam
+# Anphabe - Đối tác của LinkedIn tại Việt Nam
 https://linkedin.anphabe.com
