@@ -744,6 +744,9 @@ a {
   font-size: 1.5rem;
   padding-right: .5rem;
 }
+.cid-sQwkO0wnmK .navbar-nav {
+  display: none !important;
+}
 .cid-sQwkO0wnmK .dropdown-menu,
 .cid-sQwkO0wnmK .navbar.opened {
   background: #ffffff !important;
@@ -767,6 +770,9 @@ a {
   display: inline-block;
   transform: scale(1, 1);
   transition: all 0.25s ease-in-out;
+}
+.cid-sQwkO0wnmK .collapsed {
+  display: none !important;
 }
 .cid-sQwkO0wnmK .collapsed .dropdown-menu .dropdown-item:before {
   display: none;
@@ -942,6 +948,7 @@ a {
   min-width: 170px;
 }
 .cid-sQwkO0wnmK button.navbar-toggler {
+  display: none !important;
   outline: none;
   width: 31px;
   height: 20px;
