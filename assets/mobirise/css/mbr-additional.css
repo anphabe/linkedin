@@ -1663,6 +1663,11 @@ a {
   background-color: #ffffff;
   padding: 3rem;
 }
+@media (max-width: 768px) {
+  .cid-t5Y5dmelX0 .text-wrapper {
+    padding: 1rem;
+  }
+}
 .cid-t5Y5dmelX0 .mbr-section-title {
   color: #353535;
 }
