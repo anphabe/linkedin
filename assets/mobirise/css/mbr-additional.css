@@ -1657,7 +1657,7 @@ a {
 }
 .cid-t5Y5dmelX0 {
   background-image: url("../../../assets/images/bg-trophy-2.jpg");
-  min-height: 84vh;
+  min-height: 68vh;
 }
 .cid-t5Y5dmelX0 .text-wrapper {
   background-color: #ffffff;
@@ -1677,8 +1677,8 @@ a {
 }
 @media (max-width: 768px) {
   .cid-t5Y5dmelX0 {
-    padding-top: 2.5rem;
-    padding-bottom: 2.5rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
   }
 }
 .cid-t63lsgUGHH {
