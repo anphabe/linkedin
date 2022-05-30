@@ -69,7 +69,7 @@
       }
     ],
     "imageResize": false,
-    "uniqCompNum": 100,
+    "uniqCompNum": 97,
     "versionPublish": "5.6.8",
     "screenshot": "screenshot.png",
     "favicon": "@PROJECT_PATH@/assets/images/favicon.png",
@@ -86,7 +86,9 @@
     "global_header_custom": "<meta property=\"og:site_name\" content=\"linkedin.anphabe.com\"/>\n<meta property=\"og:rich_attachment\" content=\"true\"/>\n<meta property=\"og:type\" content=\"website\"/>\n<meta property=\"og:url\" itemprop=\"url\" content=\"https://linkedin.anphabe.com\"/>\n\n\n<!-- Google Tag Manager -->\n<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':\nnew Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],\nj=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=\n'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);\n})(window,document,'script','dataLayer','GTM-KG2VC3R');</script>\n<!-- End Google Tag Manager -->\n",
     "global_footer_custom": "<script src=\"assets/al/al.min.js\"></script>",
     "global_after_body": "<!-- Google Tag Manager (noscript) -->\n<noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-KG2VC3R\"\nheight=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe></noscript>\n<!-- End Google Tag Manager (noscript) -->\n",
-    "witsec-jquery": "3.5.1"
+    "witsec-jquery": "3.5.1",
+    "publishType": "local",
+    "publishPath": "@PROJECT_PATH@"
   },
   "pages": {
     "index.html": {
@@ -1476,57 +1478,28 @@
           "alias": false,
           "_styles": {
             "& when not (@fullScreen)": {
-              "padding-top": "(@paddingTop * 1rem)",
-              "padding-bottom": "(@paddingBottom * 1rem)"
-            },
-            "& when (@bg-type = 'color')": {
-              "background-color": "@bg-value"
+              "padding-top": "(@paddingTop * 0.5rem)",
+              "padding-bottom": "(@paddingBottom * 0.5rem)"
             },
             "& when (@bg-type = 'image')": {
               "background-image": "url(@bg-value)"
             },
-            ".mbr-fallback-image.disabled": {
-              "display": "none"
+            "& when (@bg-type = 'color')": {
+              "background": "@bg-value"
             },
-            ".mbr-fallback-image": {
-              "display": "block",
-              "background-size": "cover",
-              "background-position": "center center",
-              "width": "100%",
-              "height": "100%",
-              "position": "absolute",
-              "top": "0",
-              "& when (@bg-type = 'video')": {
-                "background-image": "url(@fallBackImage)"
-              }
-            },
-            ".mbr-section-subtitle": {
-              "text-align": "center"
-            },
-            ".mbr-text": {
-              "text-align": "center"
-            },
-            "@media (max-width: 768px)": {
-              ".mbr-section-subtitle": {
-                "text-align": "left !important"
-              },
-              ".mbr-text": {
-                "text-align": "left"
-              },
-              ".align-center": {
-                "text-align": "left"
-              },
-              "padding-top": "(@paddingTop * 0.5rem)",
-              "padding-bottom": "(@paddingBottom * 0.5rem)"
+            ".mbr-section-title": {
+              "color": "#353535",
+              "text-align": "left"
             }
           },
-          "_name": "content4",
+          "_name": "info1",
           "_sourceTheme": "mobirise5",
-          "_customHTML": "<section data-bs-version=\"5.1\" class=\"content4\" group=\"Content\" data-bg-video=\"{{bg.type == 'video'&&bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\" condition=\"fullScreen == false\">\n        <input type=\"range\" name=\"textWidth\" title=\"Width\" min=\"4\" max=\"12\" step=\"1\" value=\"9\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\">\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\" checked>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"../_images/background1.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#ebf1fb\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <header condition=\"bg.type === 'video'\">Fallback Image</header>\n        <input type=\"image\" title=\"Fallback Image\" value=\"../_images/background13.jpg\" name=\"fallBackImage\" condition=\"bg.type === 'video'\">\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.7\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n\n    <div class=\"mbr-fallback-image disabled\" mbr-if=\"bg.type == 'video'\"></div>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"title col-md-12 col-lg-{{textWidth}}\">\n                <h3 class=\"mbr-section-title mbr-fonts-style align-center mb-4\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-2\">\n                    <b>Article Title with Solid Background</b>\n                </h3>\n                <h4 class=\"mbr-section-subtitle align-center mbr-fonts-style mb-4\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\" mbr-theme-style=\"display-7\">Anphabe hiện là Đại lý chiến lược độc quyền của LinkedIn Talent Solutions tại Việt Nam, chuyên cung cấp các giải pháp Tuyển Dụng &amp; Thương Hiệu Nhà Tuyển Dụng trên nền tảng LinkedIn. Với đội ngũ tư vấn được đào tạo bài bản bởi LinkedIn, Anphabe đã và đang đồng hành và hỗ trợ các doanh nghiệp tuyển dụng nhanh, đúng người đúng việc và gia tăng sức hấp dẫn với ứng viên tiềm năng thông qua các giải pháp toàn diện, từ <b>Linkedin Recruiter</b>, <b>Job Slot</b> cho đến <b>Career Page</b>.</h4>   \n                <div class=\"info-form\">\n                    <p class=\"mbr-text mbr-fonts-style align-center mb-1\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\"><b>Liên hệ ANPHABE để được tư vấn</b></p>            \n                    <p class=\"mbr-text mbr-fonts-style align-center mb-1\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\">\n                    <span mbr-icon class=\"mbr-iconfont mobi-mbri-phone\"></span> (+84) 8 6268 2222</p>\n                    <p class=\"mbr-text mbr-fonts-style align-center mb-1\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\">\n                    <span class=\"ti-mobile mbr-iconfont\"></span> (+84) 908 267 759</p>\n                    <p class=\"mbr-text mbr-fonts-style align-center mb-4\" mbr-theme-style=\"display-7\" data-app-selector=\".mbr-text\">\n                    <span class=\"material material-mail-outline mbr-iconfont\"></span> <a href=\"mailto:clientsolution@anphabe.com\" class=\"text-primary\">clientsolution@anphabe.com</a></p>\n                </div>\n                <div class=\"mbr-section-btn align-center\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\"><a class=\"btn btn-primary\" href=\"index.html#dangky\" data-app-placeholder=\"Type Text\"><strong>TRẢI NGHIỆM NGAY</strong></a></div>    \n          </div>         \n    </div>\n</div></section>",
-          "_cid": "t7iCp4Sv0N",
-          "_anchor": "content4-2p",
-          "_PHPplaceholders": [],
+          "_customHTML": "<section data-bs-version=\"5.1\" group=\"Info\" class=\"info1\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{\n    'mbr-fullscreen': fullScreen,\n    'mbr-parallax-background': bg.parallax}\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\">\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"8\" condition=\"fullScreen == false\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Text\" name=\"showText\">\n        <input type=\"checkbox\" title=\"Buttons\" name=\"showButtons\" checked>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Image\" value=\"@PROJECT_PATH@/assets/images/background3-1.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#ebf1fb\" selected>\n            <input type=\"video\" title=\"Video\" value=\"https://vimeo.com/428046504\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#4479d9\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.5\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type !== 'color'\" opacity=\"{{overlayOpacity}}\" bg-color=\"{{overlayColor}}\"></div>\n    <div class=\"align-center\" mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-12 col-lg-6\">\n                <h3 class=\"mbr-section-title mbr-fonts-style\" data-app-selector=\".mbr-section-title\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\">Liên hệ Anphabe <b>(+84) 8 6268 2222</b> -<b> (+84) 908 267 759</b> hoặc <a href=\"mailto:clientsolution@anphabe.com\" class=\"text-primary\">clientsolution@anphabe.com</a> để được tư vấn và trải nghiệm</h3>\n            </div>\n            <div class=\"col-12 col-lg-6\">\n                <div mbr-buttons mbr-theme-style=\"display-4\" class=\"mbr-section-btn\" mbr-if=\"showButtons\" data-toolbar=\"-mbrBtnMove\"><a class=\"btn btn-primary\" href=\"index.html#dangky\" data-app-placeholder=\"Type Text\"><strong>TRẢI NGHIỆM NGAY</strong></a></div>\n            </div>\n        </div>\n    </div>\n</section>",
           "_JSplaceholders": [],
+          "_PHPplaceholders": [],
+          "_anchor": "info1-2l",
+          "_isUserblock": true,
+          "_cid": "t63rUk805G",
           "_protectedParams": [],
           "_global": false,
           "_once": false,
