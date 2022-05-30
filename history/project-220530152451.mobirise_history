@@ -69,7 +69,7 @@
       }
     ],
     "imageResize": false,
-    "uniqCompNum": 104,
+    "uniqCompNum": 103,
     "versionPublish": "5.6.8",
     "screenshot": "screenshot.png",
     "favicon": "@PROJECT_PATH@/assets/images/favicon.png",
@@ -86,7 +86,9 @@
     "global_header_custom": "<meta property=\"og:site_name\" content=\"linkedin.anphabe.com\"/>\n<meta property=\"og:rich_attachment\" content=\"true\"/>\n<meta property=\"og:type\" content=\"website\"/>\n<meta property=\"og:url\" itemprop=\"url\" content=\"https://linkedin.anphabe.com\"/>\n\n\n<!-- Google Tag Manager -->\n<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':\nnew Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],\nj=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=\n'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);\n})(window,document,'script','dataLayer','GTM-KG2VC3R');</script>\n<!-- End Google Tag Manager -->\n",
     "global_footer_custom": "<script src=\"assets/al/al.min.js\"></script>",
     "global_after_body": "<!-- Google Tag Manager (noscript) -->\n<noscript><iframe src=\"https://www.googletagmanager.com/ns.html?id=GTM-KG2VC3R\"\nheight=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe></noscript>\n<!-- End Google Tag Manager (noscript) -->\n",
-    "witsec-jquery": "3.5.1"
+    "witsec-jquery": "3.5.1",
+    "publishType": "local",
+    "publishPath": "@PROJECT_PATH@"
   },
   "pages": {
     "index.html": {
@@ -1235,6 +1237,82 @@
             "& when (@bg-type = 'color')": {
               "background-color": "@bg-value"
             },
+            "form.mbr-form": {
+              "border-radius": "10px",
+              "background-color": "#fafafa",
+              "@media (min-width: 992px)": {
+                "padding": "3rem 2rem",
+                "width": "(@formWidth * 10%)"
+              },
+              "@media (max-width: 991px)": {
+                "padding": "1rem"
+              },
+              ".mbr-section-btn": {
+                "text-align": "center",
+                "width": "100%",
+                ".btn": {
+                  "width": "100%"
+                }
+              }
+            },
+            ".form-wrapper": {
+              "background-color": "#ffffff",
+              "padding": "4rem 0 0",
+              "margin-top": "2rem",
+              "box-shadow": "0 2px 10px rgba(0, 0, 0, 0.16)"
+            },
+            "P": {
+              "text-align": "left",
+              "color": "#353535"
+            },
+            ".display-5 > .mbr-iconfont": {
+              "font-size": "1.25rem"
+            },
+            ".mbr-section-title": {
+              "color": "#353535",
+              "text-align": "center"
+            },
+            ".contact-wrapper": {
+              "padding-left": "3rem",
+              "margin-top": "1rem"
+            },
+            "@media (max-width: 768px)": {
+              ".info-form": {
+                "margin-left": "2rem"
+              },
+              "padding-top": "(@paddingTop * 0.5rem)",
+              "padding-bottom": "(@paddingBottom * 0.5rem)"
+            }
+          },
+          "_name": "form7",
+          "_sourceTheme": "mobirise5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"form7\" group=\"Forms\" plugins=\"formstyler, datepicker\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n        <input type=\"range\" inline title=\"Width\" name=\"formWidth\" min=\"4\" max=\"10\" step=\"1\" value=\"6\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\">\n        <input type=\"checkbox\" title=\"Title\" name=\"showText\" checked>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Image\" value=\"../_images/background1.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#fafafa\" selected>\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.4\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"hidden\" name=\"usedRecaptcha\" value=\"false\">\n    </mbr-parameters>\n    <div class=\"mbr-overlay\" mbr-if=\"(overlay && bg.type=='image')\"></div>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"mbr-section-head\" mbr-if=\"showTitle || showSubtitle\">\n            <h3 class=\"mbr-section-title mbr-fonts-style align-center mb-4\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">Đăng ký ngay để trải nghiệm</h3>\n        </div>\n        <div class=\"row justify-content-center\">\n            <div class=\"col-12 col-lg-6\">\n                <div class=\"info-form\">\n                    <p class=\"mbr-text mbr-fonts-style align-center mb-1\" mbr-theme-style=\"display-7\" mbr-if=\"showText\"><b>Liên hệ ANPHABE để được tư vấn</b></p>            \n                <p class=\"mbr-text mbr-fonts-style align-center mb-1\" mbr-theme-style=\"display-7\" mbr-if=\"showText\">\n                    <span mbr-icon class=\"mbr-iconfont mobi-mbri-phone\"></span> (+84) 8 6268 2222</p>\n                <p class=\"mbr-text mbr-fonts-style align-center mb-1\" mbr-theme-style=\"display-7\" mbr-if=\"showText\">\n                    <span class=\"ti-mobile mbr-iconfont\"></span> (+84) 908 267 759</p>\n                 <p class=\"mbr-text mbr-fonts-style align-center mb-4\" mbr-theme-style=\"display-7\" mbr-if=\"showText\">\n                    <span class=\"material material-mail-outline mbr-iconfont\"></span> <a href=\"mailto:clientsolution@anphabe.com\" class=\"text-primary\">clientsolution@anphabe.com</a></p>\n                <hr class=\"mb-4\">\n                </div>\n                <div id=\"getfly-optin-form-iframe-1652671952276\"></div> [JS_CODE_0]\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "t5XN3ybren",
+          "_anchor": "dangky",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [
+            "<script type=\"text/javascript\"> (function(){ var r = window.document.referrer != \"\"? window.document.referrer: window.location.origin; var regex = /(https?:\\/\\/.*?)\\//g; var furl = regex.exec(r); r = furl ? furl[0] : r; var f = document.createElement(\"iframe\"); const url_string = new URLSearchParams(window.location.search); var utm_source, utm_campaign, utm_medium, utm_content, utm_term, utm_user, utm_account; if((!url_string.has('utm_source') || url_string.get('utm_source') == '') && document.cookie.match(new RegExp('utm_source' + '=([^;]+)')) != null){ r+= \"&\" +document.cookie.match(new RegExp('utm_source' + '=([^;]+)'))[0]; } else { r+= url_string.get('utm_source') != null ? \"&utm_source=\" + url_string.get('utm_source') : \"\";} if((!url_string.has('utm_campaign') || url_string.get('utm_campaign') == '') && document.cookie.match(new RegExp('utm_campaign' + '=([^;]+)')) != null){ r+= \"&\" +document.cookie.match(new RegExp('utm_campaign' + '=([^;]+)'))[0]; } else { r+= url_string.get('utm_campaign') != null ? \"&utm_campaign=\" + url_string.get('utm_campaign') : \"\";} if((!url_string.has('utm_medium') || url_string.get('utm_medium') == '') && document.cookie.match(new RegExp('utm_medium' + '=([^;]+)')) != null){ r+= \"&\" +document.cookie.match(new RegExp('utm_medium' + '=([^;]+)'))[0]; } else { r+= url_string.get('utm_medium') != null ? \"&utm_medium=\" + url_string.get('utm_medium') : \"\";} if((!url_string.has('utm_content') || url_string.get('utm_content') == '') && document.cookie.match(new RegExp('utm_content' + '=([^;]+)')) != null){ r+= \"&\" +document.cookie.match(new RegExp('utm_content' + '=([^;]+)'))[0]; } else { r+= url_string.get('utm_content') != null ? \"&utm_content=\" + url_string.get('utm_content') : \"\";} if((!url_string.has('utm_term') || url_string.get('utm_term') == '') && document.cookie.match(new RegExp('utm_term' + '=([^;]+)')) != null){ r+= \"&\" +document.cookie.match(new RegExp('utm_term' + '=([^;]+)'))[0]; } else { r+= url_string.get('utm_term') != null ? \"&utm_term=\" + url_string.get('utm_term') : \"\";} if((!url_string.has('utm_user') || url_string.get('utm_user') == '') && document.cookie.match(new RegExp('utm_user' + '=([^;]+)')) != null){ r+= \"&\" +document.cookie.match(new RegExp('utm_user' + '=([^;]+)'))[0]; } else { r+= url_string.get('utm_user') != null ? \"&utm_user=\" + url_string.get('utm_user') : \"\";} if((!url_string.has('utm_account') || url_string.get('utm_account') == '') && document.cookie.match(new RegExp('utm_account' + '=([^;]+)')) != null){ r+= \"&\" +document.cookie.match(new RegExp('utm_account' + '=([^;]+)'))[0]; } else { r+= url_string.get('utm_account') != null ? \"&utm_account=\" + url_string.get('utm_account') : \"\";} r+=\"&full_url=\"+encodeURIComponent(window.location.href); f.setAttribute(\"src\", \"https://anphabe.getflycrm.com/api/forms/viewform/?key=ae6nfPXVX3pp08GoNidio2wpxva8JJBtwXevJIBPxJTNhSaOVa&referrer=\"+r); f.style.width = \"100%\";f.style.height = \"488px\";f.setAttribute(\"frameborder\",\"0\");f.setAttribute(\"marginheight\",\"0\"); f.setAttribute(\"marginwidth\",\"0\");var s = document.getElementById(\"getfly-optin-form-iframe-1652671952276\");s.appendChild(f); })(); </script>"
+          ],
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
+            ".mbr-overlay": {
+              "background-color": "@overlayColor",
+              "opacity": "@overlayOpacity"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
             "form": {
               ".mbr-section-btn": {
                 "text-align": "center",
@@ -1246,34 +1324,59 @@
                   }
                 }
               }
-            },
-            "P": {
-              "text-align": "left"
-            },
-            ".mbr-form": {
-              "padding": "2rem",
-              "background-color": "#fafafa",
-              "@media (max-width: 768px)": {
-                "padding": "1rem 0.5rem"
-              }
-            },
-            ".form-control": {
-              "padding": "1rem 1.2rem",
-              "line-height": "1.5rem !important"
-            },
-            "@media (max-width: 768px)": {
-              "h3.align-center": {
-                "text-align": "left"
-              },
-              "padding-top": "(@paddingTop * 0.5rem)",
-              "padding-bottom": "(@paddingBottom * 0.5rem)"
             }
           },
           "_name": "form5",
           "_sourceTheme": "mobirise5",
-          "_customHTML": "<section data-bs-version=\"5.1\" class=\"form5\" group=\"Forms\" plugins=\"formstyler, datepicker\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"6\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"3\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\">        \n        <input type=\"checkbox\" title=\"Title\" name=\"showText\" checked>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Image\" value=\"../_images/background1.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\" selected>\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.4\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n    <div class=\"mbr-overlay\" mbr-if=\"(overlay && bg.type=='image')\"></div>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-lg-8\">\n                <div class=\"mbr-section-head\" mbr-if=\"showTitle || showSubtitle\">\n                    <h3 class=\"mbr-section-title mbr-fonts-style align-center mb-0\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">Đăng ký ngay để trải nghiệm</h3>                    \n                </div>\n            </div>\n        </div> \n        <div class=\"row justify-content-center\">\n            <div class=\"col-lg-6\">                \n                <div class=\"info-form mt-4\">\n                    <p class=\"mbr-text mbr-fonts-style align-center mb-1\" mbr-theme-style=\"display-7\" mbr-if=\"showText\"><b>Liên hệ ANPHABE để được tư vấn</b></p>            \n                    <p class=\"mbr-text mbr-fonts-style align-center mb-1\" mbr-theme-style=\"display-7\" mbr-if=\"showText\">\n                    <span mbr-icon class=\"mbr-iconfont mobi-mbri-phone\"></span> (+84) 8 6268 2222</p>\n                    <p class=\"mbr-text mbr-fonts-style align-center mb-1\" mbr-theme-style=\"display-7\" mbr-if=\"showText\">\n                    <span class=\"ti-mobile mbr-iconfont\"></span> (+84) 908 267 759</p>\n                    <p class=\"mbr-text mbr-fonts-style align-center mb-4\" mbr-theme-style=\"display-7\" mbr-if=\"showText\">\n                    <span class=\"material material-mail-outline mbr-iconfont\"></span> <a href=\"mailto:clientsolution@anphabe.com\" class=\"text-primary\">clientsolution@anphabe.com</a></p>\n                    <hr class=\"mb-4\">\n                </div>\n            </div>\n        </div> \n        <div class=\"row justify-content-center\">\n            <div class=\"col-lg-6\">                \n                <div mbr-form class=\"mx-auto mbr-form\">\n                    <form action name=\"Form Name\" method=\"POST\" class=\"mbr-form form-with-styler\" data-verified>\n                        <div class=\"row\">\n                            <div hidden=\"hidden\" data-form-alert class=\"alert alert-success col-12\">Thanks for filling out the form!</div>\n                            <div hidden=\"hidden\" data-form-alert-danger class=\"alert alert-danger col-12\">\n                                Oops...! some problem!\n                            </div>\n                        </div>\n                        <div class=\"dragArea row\">\n                            <div class=\"col-lg-12 col-md-12 col-sm-12 form-group mb-3\" data-for=\"company\">\n                                <input type=\"text\" name=\"company\" placeholder=\"Tên công ty\" data-form-field=\"company\" data-required=\"true\" class=\"form-control\" value>\n                            </div>\n                            <div class=\"col-12 form-group mb-3\" data-for=\"painpoint\">\n                                <select id=\"painpoint\" name=\"painpoint\" data-form-field=\"painpoint\" required data-required=\"true\" class=\"form-control\" value>\n                                    <option value>Nhu cầu nào bạn cần tư vấn?</option>\n                                    <option value=\"Tìm & liên lạc ứng viên\">Tìm &amp; liên lạc ứng viên</option>\n                                    <option value=\"Đăng tuyển\">Đăng tuyển</option>\n                                    <option value=\"Thương hiệu nhà tuyển dụng\">Thương hiệu nhà tuyển dụng​</option>\n                                    <option value=\"Cả ba nhu cầu trên\">Cả ba nhu cầu trên</option>\n                                    <option value=\"Khác\">Khác (vui lòng chia sẻ cụ thể)</option>\n                                </select>\n                            </div>\n                            <div class=\"col-12 form-group mb-3\" data-for=\"number\">\n                                <input type=\"text\" name=\"number\" placeholder=\"Số lượng vị trí bạn cần tuyển trong 6 tháng tới?\" data-form-field=\"number\" class=\"form-control\" value>\n                            </div>\n\n                            <div class=\"col-md-6 col-sm-12 form-group mb-3\" data-for=\"email\">\n                                <input type=\"email\" name=\"email\" placeholder=\"Email của bạn\" data-form-field=\"email\" class=\"form-control\" value>\n                            </div>\n                            <div class=\"col-md-6 col-sm-12 form-group mb-3\" data-for=\"phone\">\n                                <input type=\"text\" name=\"phone\" data-required=\"true\" placeholder=\"Số điện thoại của bạn\" data-form-field=\"phone\" class=\"form-control\" value>\n                            </div>\n                            <div class=\"col-md-6 col-sm-12 form-group mb-3\" data-for=\"position\">\n                                <select id=\"position\" name=\"position\" data-form-field=\"position\" required data-required=\"true\" class=\"form-control\" value>\n                                    <option value>Vị trí công việc</option>\n                                    <option value=\"CEO / Founder / Chủ tịch\">CEO / Founder / Chủ tịch</option>\n                                    <option value=\"Giám đốc (CFO, CTO, GĐ Nhân sự, VP)\">Giám đốc (CFO, CTO, GĐ Nhân sự, VP)</option>\n                                    <option value=\"Quản lý (manager)\">Quản lý (manager)​</option>\n                                    <option value=\"Nhân viên (staff)\">Nhân viên (staff)</option>\n                                </select>\n                            </div>\n                            <div class=\"col-md-6 col-sm-12 form-group mb-3\" data-for=\"company-size\">\n                                <select id=\"company-size\" name=\"company-size\" data-form-field=\"company-size\" required data-required=\"true\" class=\"form-control\" value>\n                                    <option value>Quy mô công ty</option>\n                                    <option value=\"1-60 nhân sự \">1-60 nhân sự </option>\n                                    <option value=\"61-200 nhân sự\">61-200 nhân sự​</option>\n                                    <option value=\"201-500 nhân sự\">201-500 nhân sự</option>\n                                    <option value=\"501-1000 nhân sự\">501-1000 nhân sự</option>\n                                    <option value=\"~1000\">Hơn 1000 nhân sự </option>\n                                </select>\n                            </div>\n                            <div mbr-buttons=\"true\" mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnMove,-mbrLink,-mbrBtnRemove,-mbrBtnAdd\" class=\"col-lg-12 col-md-12 col-sm-12 align-center mbr-section-btn mt-4\"><a type=\"submit\" class=\"btn btn-primary\" data-app-placeholder=\"Type Text\">ĐĂNG KÝ TRẢI NGHIỆM</a></div>\n                        </div>\n                    </form>\n                </div>\n            </div>\n        </div>        \n    </div>\n</section>",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"form5\" group=\"Forms\" plugins=\"formstyler, datepicker\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"6\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"6\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\">        \n        <input type=\"checkbox\" title=\"Title\" name=\"showText\" checked>\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Image\" value=\"../_images/background1.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\" selected>\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.4\" condition=\"overlay && bg.type !== 'color'\">\n    </mbr-parameters>\n    <div class=\"mbr-overlay\" mbr-if=\"(overlay && bg.type=='image')\"></div>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"mbr-section-head\" mbr-if=\"showTitle || showSubtitle\">\n            <h3 class=\"mbr-section-title mbr-fonts-style align-center mb-0\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">Đăng ký ngay để trải nghiệm</h3>\n            <div class=\"info-form\">\n                <p class=\"mbr-text mbr-fonts-style align-center mb-1\" mbr-theme-style=\"display-7\" mbr-if=\"showText\"><b>Liên hệ ANPHABE để được tư vấn</b></p>            \n                <p class=\"mbr-text mbr-fonts-style align-center mb-1\" mbr-theme-style=\"display-7\" mbr-if=\"showText\">\n                <span mbr-icon class=\"mbr-iconfont mobi-mbri-phone\"></span> (+84) 8 6268 2222</p>\n                <p class=\"mbr-text mbr-fonts-style align-center mb-1\" mbr-theme-style=\"display-7\" mbr-if=\"showText\">\n                <span class=\"ti-mobile mbr-iconfont\"></span> (+84) 908 267 759</p>\n                <p class=\"mbr-text mbr-fonts-style align-center mb-4\" mbr-theme-style=\"display-7\" mbr-if=\"showText\">\n                <span class=\"material material-mail-outline mbr-iconfont\"></span> <a href=\"mailto:clientsolution@anphabe.com\" class=\"text-primary\">clientsolution@anphabe.com</a></p>\n            <hr class=\"mb-4\">\n            </div>\n        </div>\n        <div class=\"row justify-content-center mt-4\">\n            <div mbr-form class=\"col-lg-8 mx-auto mbr-form\">\n                <form action name=\"Form Name\" method=\"POST\" class=\"mbr-form form-with-styler\" data-verified>\n                    <div class=\"row\">\n                        <div hidden=\"hidden\" data-form-alert class=\"alert alert-success col-12\">Thanks for filling out the form!</div>\n                        <div hidden=\"hidden\" data-form-alert-danger class=\"alert alert-danger col-12\">\n                            Oops...! some problem!\n                        </div>\n                    </div>\n                    <div class=\"dragArea row\">\n                        <div class=\"col-lg-12 col-md-12 col-sm-12 form-group mb-3\" data-for=\"company\">\n                            <input type=\"text\" name=\"company\" placeholder=\"Tên công ty\" data-form-field=\"company\" data-required=\"true\" class=\"form-control\" value>\n                        </div>\n                        <div class=\"col-12 form-group mb-3\" data-for=\"painpoint\">\n                            <select id=\"painpoint\" name=\"painpoint\" data-form-field=\"painpoint\" required data-required=\"true\" class=\"form-control\" value>\n                                <option value>Bạn muốn được tư vấn về nhu cầu nào sau đây?</option>\n                                <option value=\"Tìm & liên lạc ứng viên\">Tìm &amp; liên lạc ứng viên</option>\n                                <option value=\"Đăng tuyển\">Đăng tuyển</option>\n                                <option value=\"Thương hiệu nhà tuyển dụng\">Thương hiệu nhà tuyển dụng​</option>\n                                <option value=\"Cả ba nhu cầu trên\">Cả ba nhu cầu trên</option>\n                                <option value=\"Khác\">Khác (vui lòng chia sẻ cụ thể)</option>\n                            </select>\n                        </div>\n                        <div class=\"col-12 form-group mb-3\" data-for=\"number\">\n                            <input type=\"text\" name=\"number\" placeholder=\"Bạn cần tuyển dụng bao nhiêu vị trí trong 6 tháng tới?\" data-form-field=\"number\" class=\"form-control\" value>\n                        </div>\n\n                        <div class=\"col-md col-sm-12 form-group mb-3\" data-for=\"email\">\n                            <input type=\"email\" name=\"email\" placeholder=\"Email của bạn\" data-form-field=\"email\" class=\"form-control\" value>\n                        </div>\n                        <div class=\"col-md col-sm-12 form-group mb-3\" data-for=\"phone\">\n                            <input type=\"text\" name=\"phone\" data-required=\"true\" placeholder=\"Số điện thoại của bạn\" data-form-field=\"phone\" class=\"form-control\" value>\n                        </div>\n                        <div class=\"col-md col-sm-12 form-group mb-3\" data-for=\"position\">\n                            <select id=\"position\" name=\"position\" data-form-field=\"position\" required data-required=\"true\" class=\"form-control\" value>\n                                <option value>Vị trí công việc</option>\n                                <option value=\"CEO / Founder / Chủ tịch\">CEO / Founder / Chủ tịch</option>\n                                <option value=\"Giám đốc (CFO, CTO, GĐ Nhân sự, VP)\">Giám đốc (CFO, CTO, GĐ Nhân sự, VP)</option>\n                                <option value=\"Quản lý (manager)\">Quản lý (manager)​</option>\n                                <option value=\"Nhân viên (staff)\">Nhân viên (staff)</option>\n                            </select>\n                        </div>\n                        <div class=\"col-md col-sm-12 form-group mb-3\" data-for=\"company-size\">\n                            <select id=\"company-size\" name=\"company-size\" data-form-field=\"company-size\" required data-required=\"true\" class=\"form-control\" value>\n                                <option value>Quy mô công ty</option>\n                                <option value=\"1-60 nhân sự \">1-60 nhân sự </option>\n                                <option value=\"61-200 nhân sự\">61-200 nhân sự​</option>\n                                <option value=\"201-500 nhân sự\">201-500 nhân sự</option>\n                                <option value=\"501-1000 nhân sự\">501-1000 nhân sự</option>\n                                <option value=\"~1000\">Hơn 1000 nhân sự </option>\n                            </select>\n                        </div>\n                        <div mbr-buttons=\"true\" mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnMove,-mbrLink,-mbrBtnRemove,-mbrBtnAdd\" class=\"col-lg-12 col-md-12 col-sm-12 align-center mbr-section-btn\">\n                            <a type=\"submit\" class=\"btn btn-primary\">Send message</a>\n                        </div>\n                    </div>\n                </form>\n            </div>\n        </div>\n    </div>\n</section>",
           "_cid": "t7iNfq3c9V",
           "_anchor": "form5-2t",
+          "_PHPplaceholders": [],
+          "_JSplaceholders": [],
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {}
+        },
+        {
+          "alias": false,
+          "_styles": {
+            "padding-top": "(@paddingTop * 1rem)",
+            "padding-bottom": "(@paddingBottom * 1rem)",
+            ".mbr-overlay": {
+              "background-color": "@overlayColor",
+              "opacity": "@overlayOpacity"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "form.mbr-form": {
+              "border-radius": "10px",
+              "background-color": "#fafafa",
+              "@media (min-width: 992px)": {
+                "padding": "3rem 2rem",
+                "width": "(@formWidth * 10%)"
+              },
+              "@media (max-width: 991px)": {
+                "padding": "1rem"
+              },
+              ".mbr-section-btn": {
+                "text-align": "center",
+                "width": "100%",
+                ".btn": {
+                  "width": "100%"
+                }
+              }
+            }
+          },
+          "_name": "form7",
+          "_sourceTheme": "mobirise5",
+          "_customHTML": "<section data-bs-version=\"5.1\" class=\"form7\" group=\"Forms\" plugins=\"formstyler, datepicker\">\n    <mbr-parameters>\n        <header>Size</header>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"range\" inline=\"\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n        <input type=\"range\" inline=\"\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"10\" step=\"1\" value=\"5\">\n        <input type=\"range\" inline=\"\" title=\"Width\" name=\"formWidth\" min=\"4\" max=\"10\" step=\"1\" value=\"6\">\n        <header>Show/Hide</header>\n        <input type=\"checkbox\" title=\"Title\" name=\"showTitle\" checked=\"\">\n        <input type=\"checkbox\" title=\"Subtitle\" name=\"showSubtitle\">\n        <input type=\"checkbox\" title=\"Title\" name=\"showText\" checked=\"\">\n        <header>Background</header>\n        <fieldset type=\"background\" name=\"bg\">\n            <input type=\"image\" title=\"Image\" value=\"../_images/background1.jpg\">\n            <input type=\"color\" title=\"Color\" value=\"#ffffff\" selected=\"\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked=\"\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#ffffff\" condition=\"overlay &amp;&amp; bg.type !== 'color'\">\n        <input type=\"range\" inline=\"\" title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.4\" condition=\"overlay &amp;&amp; bg.type !== 'color'\">\n        <input type=\"hidden\" name=\"usedRecaptcha\" value=\"false\">\n    </mbr-parameters>\n    <div class=\"mbr-overlay\" mbr-if=\"(overlay &amp;&amp; bg.type=='image')\"></div>\n    <div mbr-class=\"{'container': !fullWidth, 'container-fluid': fullWidth}\">\n        <div class=\"mbr-section-head\" mbr-if=\"showTitle || showSubtitle\">\n            <h3 class=\"mbr-section-title mbr-fonts-style align-center mb-0\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title\">\n                <b>Get in Touch</b>\n            </h3>\n            <h4 class=\"mbr-section-subtitle mbr-fonts-style align-center mb-0 mt-2\" mbr-theme-style=\"display-5\" mbr-if=\"showSubtitle\" data-app-selector=\".mbr-section-subtitle\">\n                Form Subtitle\n            </h4>\n        </div>\n        <div class=\"row justify-content-center mt-4\">\n            <div mbr-form=\"\" class=\"col-lg-8 mx-auto mbr-form\">\n                <form action=\"\" name=\"Form Name\" method=\"POST\" data-rcpha_sitekey=\"\" data-rcpha_secretkey=\"\" class=\"mbr-form form-with-styler mx-auto\">\n                    <p class=\"mbr-text mbr-fonts-style align-center mb-4\" mbr-theme-style=\"display-7\" mbr-if=\"showText\">\n                        One of our team will be in contact with you shortly.\n                    </p>\n                    <div class=\"row\">\n                        <div hidden=\"hidden\" data-form-alert=\"\" class=\"alert alert-success col-12\">\n                            Thanks for filling out the form!</div>\n                        <div hidden=\"hidden\" data-form-alert-danger=\"\" class=\"alert alert-danger col-12\">\n                            Oops...! some problem!\n                        </div>\n                    </div>\n                    <div class=\"dragArea row\">\n                        <div class=\"col-lg-12 col-md-12 col-sm-12 form-group mb-3\" data-for=\"name\">\n                            <input type=\"text\" name=\"name\" placeholder=\"Name\" data-form-field=\"name\" class=\"form-control\" value=\"\">\n                        </div>\n                        <div class=\"col-lg-12 col-md-12 col-sm-12 form-group mb-3\" data-for=\"email\">\n                            <input type=\"email\" name=\"email\" placeholder=\"Email\" data-form-field=\"email\" class=\"form-control\" value=\"\">\n                        </div>\n                        <div data-for=\"phone\" class=\"col-lg-12 col-md-12 col-sm-12 form-group mb-3\">\n                            <input type=\"tel\" name=\"phone\" placeholder=\"Phone\" data-form-field=\"phone\" class=\"form-control\" value=\"\">\n                        </div>\n                        <div class=\"col-auto mbr-section-btn align-center\" mbr-buttons=\"true\" mbr-theme-style=\"display-4\" data-toolbar=\"-mbrBtnMove,-mbrLink,-mbrBtnRemove,-mbrBtnAdd\">\n                            <a data-toolbar=\"-mbrBtnMove,-mbrLink,-mbrBtnRemove,-mbrBtnAdd\" type=\"submit\" class=\"btn btn-primary\">Submit</a>\n                        </div>\n                    </div>\n                </form>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "t7iTVx3s6L",
+          "_anchor": "form7-2u",
           "_PHPplaceholders": [],
           "_JSplaceholders": [],
           "_protectedParams": [],
