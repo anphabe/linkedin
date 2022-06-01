@@ -1489,51 +1489,103 @@ a {
     padding-bottom: 2rem;
   }
 }
-.cid-t7j3VgsVTD {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
+.cid-t7uArOcQ9w {
+  padding-top: 6rem;
+  padding-bottom: 0rem;
   background-color: #ffffff;
 }
-.cid-t7j3VgsVTD .mbr-overlay {
+.cid-t7uArOcQ9w .mbr-overlay {
   background-color: #ffffff;
   opacity: 0.4;
 }
-.cid-t7j3VgsVTD form .mbr-section-btn {
+.cid-t7uArOcQ9w form .mbr-section-btn {
   text-align: center;
   width: 100%;
 }
-.cid-t7j3VgsVTD form .mbr-section-btn .btn {
+.cid-t7uArOcQ9w form .mbr-section-btn .btn {
   display: inline-flex;
 }
 @media (max-width: 991px) {
-  .cid-t7j3VgsVTD form .mbr-section-btn .btn {
+  .cid-t7uArOcQ9w form .mbr-section-btn .btn {
     width: 100%;
   }
 }
-.cid-t7j3VgsVTD P {
+.cid-t7uArOcQ9w P {
   text-align: left;
 }
-.cid-t7j3VgsVTD .mbr-form {
+.cid-t7uArOcQ9w .mbr-form {
   padding: 2rem;
   background-color: #fafafa;
 }
 @media (max-width: 768px) {
-  .cid-t7j3VgsVTD .mbr-form {
+  .cid-t7uArOcQ9w .mbr-form {
     padding: 1rem 0.5rem;
   }
 }
-.cid-t7j3VgsVTD .form-control {
+.cid-t7uArOcQ9w .form-control {
   padding: 1rem 1.2rem;
   line-height: 1.5rem !important;
 }
 @media (max-width: 768px) {
-  .cid-t7j3VgsVTD {
-    padding-top: 2.5rem;
-    padding-bottom: 2.5rem;
+  .cid-t7uArOcQ9w {
+    padding-top: 3rem;
+    padding-bottom: 0rem;
   }
-  .cid-t7j3VgsVTD h3.align-center {
+  .cid-t7uArOcQ9w h3.align-center {
     text-align: left;
   }
+}
+.cid-t7uArOcQ9w .was-validated .invalid-feedback {
+  font-family: 'Mulish', sans-serif;
+}
+.cid-t7uAsyjP59 {
+  padding-top: 0rem;
+  padding-bottom: 3rem;
+  background-color: #ffffff;
+}
+.cid-t7uAsyjP59 .mbr-overlay {
+  background-color: #ffffff;
+  opacity: 0.4;
+}
+.cid-t7uAsyjP59 form .mbr-section-btn {
+  text-align: center;
+  width: 100%;
+}
+.cid-t7uAsyjP59 form .mbr-section-btn .btn {
+  display: inline-flex;
+}
+@media (max-width: 991px) {
+  .cid-t7uAsyjP59 form .mbr-section-btn .btn {
+    width: 100%;
+  }
+}
+.cid-t7uAsyjP59 P {
+  text-align: left;
+}
+.cid-t7uAsyjP59 .mbr-form {
+  padding: 2rem;
+  background-color: #fafafa;
+}
+@media (max-width: 768px) {
+  .cid-t7uAsyjP59 .mbr-form {
+    padding: 1rem 0.5rem;
+  }
+}
+.cid-t7uAsyjP59 .form-control {
+  padding: 1rem 1.2rem;
+  line-height: 1.5rem !important;
+}
+@media (max-width: 768px) {
+  .cid-t7uAsyjP59 {
+    padding-top: 0rem;
+    padding-bottom: 1.5rem;
+  }
+  .cid-t7uAsyjP59 h3.align-center {
+    text-align: left;
+  }
+}
+.cid-t7uAsyjP59 .was-validated .invalid-feedback {
+  font-family: 'Mulish', sans-serif;
 }
 .cid-t65aYUtyDu {
   background-image: url("../../../assets/images/bg-trophy-2.jpg");
