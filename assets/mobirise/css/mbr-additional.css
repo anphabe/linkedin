@@ -1958,6 +1958,26 @@ a {
   color: #bbbbbb!important;
   background-image: none!important;
 }
+.cid-t63ubHUEuE #floating-phone {
+  display: none;
+  position: fixed;
+  left: 20px;
+  bottom: 20px;
+  height: 60px;
+  width: 60px;
+  background: #0052cc url(https://callnowbutton.com/phone/callbutton01.png) center / 50px no-repeat;
+  z-index: 99;
+  color: #fff;
+  font-size: 45px;
+  line-height: 55px;
+  text-align: center;
+  border-radius: 50%;
+}
+@media (max-width: 650px) {
+  .cid-t63ubHUEuE #floating-phone {
+    display: block;
+  }
+}
 .cid-saDYXTYIwH {
   padding-top: 6rem;
   padding-bottom: 0rem;
@@ -2069,4 +2089,24 @@ a {
   text-decoration: none!important;
   color: #bbbbbb!important;
   background-image: none!important;
+}
+.cid-t63ubHUEuE #floating-phone {
+  display: none;
+  position: fixed;
+  left: 20px;
+  bottom: 20px;
+  height: 60px;
+  width: 60px;
+  background: #0052cc url(https://callnowbutton.com/phone/callbutton01.png) center / 50px no-repeat;
+  z-index: 99;
+  color: #fff;
+  font-size: 45px;
+  line-height: 55px;
+  text-align: center;
+  border-radius: 50%;
+}
+@media (max-width: 650px) {
+  .cid-t63ubHUEuE #floating-phone {
+    display: block;
+  }
 }
