@@ -1666,7 +1666,7 @@ a {
 }
 .cid-saDYXTYIwH {
   padding-top: 6rem;
-  padding-bottom: 0rem;
+  padding-bottom: 5rem;
   background: #064F69 !important;
 }
 .cid-saDYXTYIwH .mbr-section-title,
@@ -1676,7 +1676,7 @@ a {
 }
 .cid-saDYXTYIwH img {
   margin: auto;
-  width: 80%;
+  width: 300px;
 }
 .cid-saDYXTYIwH .mbr-section-title,
 .cid-saDYXTYIwH .mbr-section-btn {
@@ -1689,7 +1689,8 @@ a {
   color: #ffffff;
 }
 .cid-saDYXTYIwH .mbr-text {
-  text-align: left !important;
+  text-align: center;
+  font-size: 18px;
 }
 .cid-twozrwXc1i {
   padding-top: 5rem;
