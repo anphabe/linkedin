@@ -1,7 +1,7 @@
 {
   "settings": {
     "name": "Cẩm nang tuyển dụng 2023",
-    "currentPage": "index.html",
+    "currentPage": "thankyou.html",
     "theme": {
       "name": "mobirise5",
       "title": "Mobirise 5",
@@ -66,9 +66,9 @@
     "gdpr": false,
     "witsec-mailform": false,
     "witsec-white-label": true,
-    "mbrsiteDomain": "wmq5zupayu",
+    "mbrsiteDomain": "wlxclhskut",
     "witsec-language": "vi",
-    "global_header_custom": "<meta property=\"og:site_name\" content=\"event.anphabe.com\"/>\n<meta property=\"og:rich_attachment\" content=\"true\"/>\n<meta property=\"og:type\" content=\"website\"/>\n<meta property=\"og:url\" itemprop=\"url\" content=\"/\"/>\n\n<!-- Google Tag Manager -->\n<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':\nnew Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],\nj=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=\n'https://tr.anphabe.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);\n})(window,document,'script','dataLayer','GTM-P9VZ8L');</script>\n<!-- End Google Tag Manager -->\n\n<link href=\"https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css\" rel=\"stylesheet\" />\n",
+    "global_header_custom": "\n<!-- Google Tag Manager -->\n<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':\nnew Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],\nj=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=\n'https://tr.anphabe.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);\n})(window,document,'script','dataLayer','GTM-P9VZ8L');</script>\n<!-- End Google Tag Manager -->\n\n<link href=\"https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css\" rel=\"stylesheet\" />\n",
     "global_footer_custom": "<script src=\"https://www.anphabe.com/sites/all/modules/mio/sales_lead/js/sales_lead.js\"></script>\n<script src=\"https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js\"></script>\n",
     "global_after_body": "<!-- Google Tag Manager (noscript) -->\n<noscript><iframe src=\"https://tr.anphabe.com/ns.html?id=GTM-P9VZ8L\"\nheight=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe></noscript>\n<!-- End Google Tag Manager (noscript) -->\n",
     "witsec-jquery": "3.6.0",
@@ -81,11 +81,11 @@
       "settings": {
         "main": true,
         "title": "Cẩm nang tuyển dụng 2023 | Anphabe",
-        "meta_descr": "Cẩm nang tuyển dụng 2023",
-        "header_custom": "<meta name=\"facebook-domain-verification\" content=\"eskryss5mu3nd6ii839t430680129i\" />\n",
+        "meta_descr": "Tải ngay Cẩm nang tuyển dụng 2023.",
+        "header_custom": "<meta name=\"facebook-domain-verification\" content=\"eskryss5mu3nd6ii839t430680129i\" />\n\n  <meta name=\"twitter:card\" content=\"summary_large_image\"/>\n  <meta name=\"twitter:image:src\" content=\"https://linkedin.anphabe.com/resources/cam-nang-tuyen-dung-2023/assets/images/index-meta.jpg\">\n  <meta property=\"og:image\" content=\"https://linkedin.anphabe.com/resources/cam-nang-tuyen-dung-2023/assets/images/index-meta.jpg\">",
         "footer_custom": "",
         "html_before": "",
-        "meta_image": "@PROJECT_PATH@/assets/images/microsoftteams-image-1.png"
+        "meta_image": "@PROJECT_PATH@/assets/images/social-share-1.jpg"
       },
       "components": [
         {
@@ -1255,9 +1255,9 @@
       "settings": {
         "title": "Đăng ký thành công I Anphabe",
         "order": 1,
-        "meta_descr": "Giải pháp LinkedIn Talent Solutions - Tuyển dụng những ứng viên phù hợp nhanh hơn với giải pháp tuyển dụng dễ dàng và thông tin chi tiết mạnh mẽ từ cộng đồng tích cực của LinkedIn.",
+        "meta_descr": "",
         "footer_custom": "",
-        "header_custom": "<meta name=\"facebook-domain-verification\" content=\"eskryss5mu3nd6ii839t430680129i\" />\n",
+        "header_custom": "<meta name=\"facebook-domain-verification\" content=\"eskryss5mu3nd6ii839t430680129i\" />\n\n  <meta name=\"twitter:card\" content=\"summary_large_image\"/>\n  <meta name=\"twitter:image:src\" content=\"https://linkedin.anphabe.com/resources/cam-nang-tuyen-dung-2023/assets/images/index-meta.jpg\">\n  <meta property=\"og:image\" content=\"https://linkedin.anphabe.com/resources/cam-nang-tuyen-dung-2023/assets/images/index-meta.jpg\">",
         "html_before": "",
         "meta_image": "@PROJECT_PATH@/assets/images/334581918-534976095288068-5154348048921760439-n.jpg"
       },
