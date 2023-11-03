@@ -859,10 +859,13 @@
             ".mbr-section-title, .card-box": {
               "text-align": "center"
             },
-            ".mbr-text, .mbr-section-btn": {
+            ".mbr-text": {
               "text-align": "left"
             },
             ".card-title": {
+              "text-align": "center"
+            },
+            ".mbr-section-btn": {
               "text-align": "center"
             }
           },

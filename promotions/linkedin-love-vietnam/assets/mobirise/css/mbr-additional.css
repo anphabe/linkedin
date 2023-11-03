@@ -1389,11 +1389,13 @@ a {
 .cid-tTSoN5MPGt .card-box {
   text-align: center;
 }
-.cid-tTSoN5MPGt .mbr-text,
-.cid-tTSoN5MPGt .mbr-section-btn {
+.cid-tTSoN5MPGt .mbr-text {
   text-align: left;
 }
 .cid-tTSoN5MPGt .card-title {
+  text-align: center;
+}
+.cid-tTSoN5MPGt .mbr-section-btn {
   text-align: center;
 }
 .cid-tTSuNl5ttF {
