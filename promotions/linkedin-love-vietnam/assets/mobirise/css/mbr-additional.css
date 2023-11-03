@@ -1322,7 +1322,7 @@ a {
 }
 .cid-saCY7M6val .mbr-section-subtitle {
   text-align: left;
-  color: #99ca3c;
+  color: #ffffff;
 }
 .cid-saCY7M6val .btn {
   border-radius: 50px;
@@ -1387,6 +1387,10 @@ a {
 }
 .cid-tTSoN5MPGt .mbr-section-title,
 .cid-tTSoN5MPGt .card-box {
+  text-align: center;
+}
+.cid-tTSoN5MPGt .mbr-text,
+.cid-tTSoN5MPGt .mbr-section-btn {
   text-align: center;
 }
 .cid-tTSuNl5ttF {
