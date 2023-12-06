@@ -1779,6 +1779,13 @@ a {
 .cid-saDYXTYIwH .mbr-text {
   text-align: left !important;
 }
+.cid-saDYXTYIwH .mbr-text,
+.cid-saDYXTYIwH .mbr-section-btn P {
+  text-align: center;
+}
+.cid-saDYXTYIwH P {
+  text-align: center;
+}
 .cid-twozrwXc1i {
   padding-top: 5rem;
   padding-bottom: 4rem;
