@@ -66,14 +66,16 @@
     "gdpr": false,
     "witsec-mailform": false,
     "witsec-white-label": true,
-    "mbrsiteDomain": "ejpkjimvh1",
+    "mbrsiteDomain": "uqe9wa0v4n",
     "global_header_custom": "<meta property=\"og:site_name\" content=\"event.anphabe.com\"/>\n<meta property=\"og:rich_attachment\" content=\"true\"/>\n<meta property=\"og:type\" content=\"website\"/>\n<meta property=\"og:url\" itemprop=\"url\" content=\"/\"/>\n\n<!-- Google Tag Manager -->\n<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':\nnew Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],\nj=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=\n'https://tr.anphabe.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);\n})(window,document,'script','dataLayer','GTM-P9VZ8L');</script>\n<!-- End Google Tag Manager -->\n\n<link href=\"https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css\" rel=\"stylesheet\" />\n<link href=\"assets/al/al.css\" rel=\"stylesheet\" />\n",
     "global_footer_custom": "<script src=\"https://www.anphabe.com/sites/all/modules/mio/sales_lead/js/sales_lead.js\"></script>\n<script src=\"https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js\"></script>\n",
     "global_after_body": "<!-- Google Tag Manager (noscript) -->\n<noscript><iframe src=\"https://tr.anphabe.com/ns.html?id=GTM-P9VZ8L\"\nheight=\"0\" width=\"0\" style=\"display:none;visibility:hidden\"></iframe></noscript>\n<!-- End Google Tag Manager (noscript) -->\n",
     "witsec-jquery": "3.6.0",
     "usedWebp": true,
     "witsec-anphabe-js": false,
-    "witsec-anphabe": false
+    "witsec-anphabe": false,
+    "publishType": "local",
+    "publishPath": "@PROJECT_PATH@"
   },
   "pages": {
     "index.html": {
@@ -81,7 +83,7 @@
         "main": true,
         "title": "Đăng ký nhận ngay báo cáo dự đoán việc làm Quý 1 năm 2024 | Anphabe",
         "meta_descr": "Hoàn tất thông tin đăng ký để nhận báo cáo dự đoán việc làm Quý 1 năm 2024. Thông tin về  tỉ lệ thất nghiệp tại Việt Nam trong năm 2023. Tình hình đăng ký & giải thể doanh nghiệp 2023 và dự kiến 2024 theo một số ngành",
-        "header_custom": "<meta name=\"facebook-domain-verification\" content=\"eskryss5mu3nd6ii839t430680129i\" />\n",
+        "header_custom": "<meta name=\"facebook-domain-verification\" content=\"eskryss5mu3nd6ii839t430680129i\" />",
         "footer_custom": "",
         "html_before": "",
         "meta_image": "@PROJECT_PATH@/assets/images/report-q1-2024-mockup.webp"
@@ -801,7 +803,7 @@
           "_anchor": "FORMLEAD",
           "_PHPplaceholders": [],
           "_JSplaceholders": [
-            "<script type=\"text/javascript\" src=\"//mau.anphabe-update.com/form/generate.js?id=4\"></script>"
+            "<script type=\"text/javascript\" src=\"//mau.anphabe-update.com/form/generate.js?id=5\"></script>"
           ],
           "_sourceTheme": "mobirise5",
           "_protectedParams": [],
