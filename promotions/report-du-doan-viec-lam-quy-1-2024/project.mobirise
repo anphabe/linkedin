@@ -75,7 +75,7 @@
     "witsec-anphabe-js": false,
     "witsec-anphabe": false,
     "publishType": "local",
-    "publishPath": "@PROJECT_PATH@"
+    "publishPath": "file:///C:/mobirise/linkedin/promotions/report-xu-huong-lua-chon-cong-viec-cua-genz"
   },
   "pages": {
     "index.html": {
