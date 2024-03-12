@@ -1338,6 +1338,9 @@ a {
     border-radius: 16px;
   }
 }
+.cid-saCY7M6val .mbr-form .row {
+  flex-direction: row;
+}
 .cid-txjHqz46fw {
   padding-top: 5rem;
   padding-bottom: 5rem;
