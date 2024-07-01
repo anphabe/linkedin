@@ -1443,6 +1443,7 @@ a {
 .cid-tTSoN5MPGt .item-wrapper {
   border-radius: 1rem;
   background: #ffffff;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
 }
 @media (max-width: 992px) {
   .cid-tTSoN5MPGt .item-wrapper {
@@ -1485,7 +1486,7 @@ a {
 .cid-ugTo1WxuA2 {
   padding-top: 6rem;
   padding-bottom: 6rem;
-  background-image: linear-gradient(135deg, #0966c2 34%, #78afda 65%, #255da1 91%);
+  background-color: #ffffff;
 }
 .cid-ugTo1WxuA2 .mbr-fallback-image.disabled {
   display: none;
@@ -1502,7 +1503,7 @@ a {
 .cid-ugTo1WxuA2 .item-wrapper {
   border-radius: 1rem;
   background: #fafafa;
-  box-shadow: 0px -16px 24px 0px rgba(255, 255, 255, 0.25) inset;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
 @media (min-width: 992px) {
   .cid-ugTo1WxuA2 .item-wrapper {
@@ -1583,65 +1584,8 @@ a {
 .cid-ugTo1WxuA2 .gp2 {
   gap: 1rem!important;
 }
-.cid-ugTo1WxuA2 .button2 {
-  display: inline-block;
-  transition: all 0.3s ease-in;
-  position: relative;
-  overflow: hidden;
-  z-index: 1;
-  color: #090909;
-  padding: 0.5em 1.5em;
-  cursor: pointer;
-  font-size: 18px;
-  border-radius: 0.5em;
-  background: #ffffff;
-  border: 1px solid #025979;
-}
-.cid-ugTo1WxuA2 .button2:active {
-  color: #666;
-  box-shadow: inset 4px 4px 12px #c5c5c5, inset -4px -4px 12px #ffffff;
-}
-.cid-ugTo1WxuA2 .button2:before {
-  content: "";
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%) scaleY(1) scaleX(1.25);
-  top: 100%;
-  width: 140%;
-  height: 180%;
-  background-color: rgba(0, 0, 0, 0.05);
-  border-radius: 50%;
-  display: block;
-  transition: all 0.3s 0.1s cubic-bezier(0.55, 0, 0.1, 1);
-  z-index: -1;
-}
-.cid-ugTo1WxuA2 .button2:after {
-  content: "";
-  position: absolute;
-  left: 55%;
-  transform: translateX(-50%) scaleY(1) scaleX(1.45);
-  top: 180%;
-  width: 160%;
-  height: 190%;
-  background-color: #025979;
-  border-radius: 50%;
-  display: block;
-  transition: all 0.3s 0.1s cubic-bezier(0.55, 0, 0.1, 1);
-  z-index: -1;
-}
-.cid-ugTo1WxuA2 .button2:hover {
-  color: #ffffff;
-  border: 1px solid #025979;
-}
-.cid-ugTo1WxuA2 .button2:hover:before {
-  top: -35%;
-  background-color: #025979;
-  transform: translateX(-50%) scaleY(1.3) scaleX(0.8);
-}
-.cid-ugTo1WxuA2 .button2:hover:after {
-  top: -45%;
-  background-color: #025979;
-  transform: translateX(-50%) scaleY(1.3) scaleX(0.8);
+.cid-ugTo1WxuA2 .btn-primary {
+  border-radius: 1rem!important;
 }
 .cid-txjHqz46fw {
   padding-top: 5rem;
@@ -2025,8 +1969,8 @@ a {
   }
 }
 .cid-ugZflKZeez {
-  padding-top: 4rem;
-  padding-bottom: 2rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
   background: url("file:///C:/mobirise/linkedin/promotions/linkedin-love-vietnam/assets/images/untitled-design-7.png") #087096;
 }
 .cid-ugZflKZeez .logo {
@@ -2040,8 +1984,8 @@ a {
 }
 @media (max-width: 768px) {
   .cid-ugZflKZeez {
-    padding-top: 2rem;
-    padding-bottom: 1rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
   }
   .cid-ugZflKZeez .logo {
     width: 200px;
