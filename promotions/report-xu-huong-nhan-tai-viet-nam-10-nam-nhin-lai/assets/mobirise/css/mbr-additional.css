@@ -1325,7 +1325,7 @@ a {
   color: #ffffff;
 }
 .cid-saCY7M6val .btn {
-  border-radius: 50px;
+  border-radius: 10px!important;
 }
 .cid-saCY7M6val .speaker {
   color: #ffffff;
@@ -1695,6 +1695,9 @@ a {
   .cid-tBiuQKPtgu .align-center {
     text-align: left;
   }
+}
+.cid-tBiuQKPtgu .btn {
+  border-radius: 10px!important;
 }
 .cid-twozrwXc1i {
   padding-top: 5rem;
