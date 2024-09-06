@@ -86,9 +86,10 @@
         "main": true,
         "title": "Đăng tuyển không giới hạn trên Linkedin I Anphabe",
         "meta_descr": "Đăng tin tuyển dụng không giới hạn & thu hút nhanh chóng ứng viên phù hợp chủ động tìm việc​",
-        "header_custom": "<meta name=\"facebook-domain-verification\" content=\"eskryss5mu3nd6ii839t430680129i\" />\n<meta property=\"og:image\" content=\"https://linkedin.anphabe.com/promotions/linkedin-love-vietnam/assets/images/index-meta.png\">",
+        "header_custom": "<meta name=\"facebook-domain-verification\" content=\"eskryss5mu3nd6ii839t430680129i\" />\n<meta name=\"image\" property=\"og:image\" content=\"https://linkedin.anphabe.com/promotions/linkedin-love-vietnam/assets/images/index-meta.png\">",
         "footer_custom": "",
-        "html_before": ""
+        "html_before": "",
+        "socialSharingUrl": "https://linkedin.anphabe.com/promotions/linkedin-love-vietnam/assets/images/index-meta.png"
       },
       "components": [
         {
