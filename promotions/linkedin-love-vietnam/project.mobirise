@@ -88,8 +88,7 @@
         "meta_descr": "Đăng tin tuyển dụng không giới hạn & thu hút nhanh chóng ứng viên phù hợp chủ động tìm việc​",
         "header_custom": "<meta name=\"facebook-domain-verification\" content=\"eskryss5mu3nd6ii839t430680129i\" />\n<meta property=\"og:image\" content=\"https://linkedin.anphabe.com/promotions/linkedin-love-vietnam/assets/images/index-meta.png\">",
         "footer_custom": "",
-        "html_before": "",
-        "meta_image": "@PROJECT_PATH@/assets/images/microsoftteams-image-30.png"
+        "html_before": ""
       },
       "components": [
         {
