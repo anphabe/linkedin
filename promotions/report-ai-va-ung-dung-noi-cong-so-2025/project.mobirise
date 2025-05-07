@@ -73,9 +73,7 @@
     "witsec-jquery": "3.6.0",
     "usedWebp": true,
     "witsec-anphabe-js": false,
-    "witsec-anphabe": false,
-    "publishType": "local",
-    "publishPath": "@PROJECT_PATH@"
+    "witsec-anphabe": false
   },
   "pages": {
     "index.html": {
@@ -86,7 +84,7 @@
         "header_custom": "<meta name=\"facebook-domain-verification\" content=\"eskryss5mu3nd6ii839t430680129i\" />\n<meta property=\"og:image\" content=\"https://linkedin.anphabe.com/promotions/report-ai-va-ung-dung-noi-cong-so-2025/assets/images/index-meta.png\">",
         "footer_custom": "",
         "html_before": "",
-        "socialSharingUrl": "https://linkedin.anphabe.com/promotions/report-xu-huong-nhan-tai-viet-nam-10-nam-nhin-lai/assets/images/index-meta.png"
+        "socialSharingUrl": ""
       },
       "components": [
         {
